@@ -1,0 +1,60 @@
+body{
+    background-color: aquamarine;
+}
+.countdown{
+    height: 97.5vh;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+    align-content: center;
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+.countdown_btn{
+    padding: .8rem 4rem;
+    border: none;
+    outline: none;
+    background-color: rgb(40, 136, 104);
+    color: white;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all .2s;
+    box-shadow: 5px 5px 10px rgb(54, 83, 73);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.countdown_btn:hover{
+    background-color: rgb(66, 180, 142);
+    transform: translateY(-.5rem);
+}
+
+.countdown_head{
+    color: rgb(40, 136, 104);
+    
+}
+
+.countdown_watch{
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    color: maroon;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+.countdown_watch div {
+    padding: 2rem;
+    border: 3px solid rgb(40, 136, 104);
+    color: rgb(40, 136, 104);
+    border-radius: 1rem;
+    display: grid;
+    justify-items: center;
+    box-shadow: 5px 5px 10px rgb(54, 83, 73);
+    width: 90px;
+}
